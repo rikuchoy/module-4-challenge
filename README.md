@@ -18,7 +18,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-![example screenshot](assets/samplew4challenge.png)
+![example screenshot](assets/s.png)
 
 ## Link to Page
-[Click to view page](https://rikuchoy.github.io/week-3-challenge/)
+[Click to view page](https://rikuchoy.github.io/week-4-challenge/)
