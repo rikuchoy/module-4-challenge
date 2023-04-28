@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Web Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+        <!--main outer div-->
+        <div class="outer-container">
+
+         <!--top bar section-->
+         <div class="top-bar">
+            <button>View Highscores</button>
+            <p>Timer: 00:00</p>
+         </div>
+
+
+         <!--inner div-->
+         <div class="inner-container">
+
+            <!--main header/quiz intro-->
+            <header class="quiz-intro" id="quiz-intro">
+                <h1>Coding Quiz Challenge</h1>
+                <p>Try to answer the following code-related questions within the time limit. 
+                    Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+                <button id="start-btn">Start Quiz</button>
+
+            </header>
+
+            <!--main quiz content--> 
+            <main>
+
+                <section class="question-screen hide" id="question-screen">
+                    <h2 id="title">Question Here</h2>
+                    <ul>
+                        <!--generate in JS; delete in final--> 
+                        <li><button>Answer 1</button></li>
+                        <li><button>Answer 2</button></li>
+                        <li><button>Answer 3</button></li>
+                        <li><button>Answer 4</button></li>
+                    </ul>
+
+                </section>
+
+
+                <section class="quiz-finish-screen hide">
+                    <h2>Quiz Finished!</h2>
+                    <p\>Your Score: 00</p>
+                    <div>
+                        <label for=""></label>Enter initials:</label>
+                        <input type="text">
+                        <button>Submit</button>
+                    </div>
+
+
+                </section>
+
+                <section class="highscores-screen hide">
+                    <h2>Highscores:</h2>
+                    <ol>
+                        <!--generate in JS; delete in final--> 
+                        <li>XX - 00</li>
+                        <li>XX - 00</li>
+                        <li>XX - 00</li>
+                        <li>XX - 00</li>
+                    </ol>
+
+                </section>
+
+
+            </main>
+
+
+
+         </div>
+
+
+        </div>
+
+        
+        <script src="script.js"></script>
+
+    </body>
+
+
+
+
+</html>
